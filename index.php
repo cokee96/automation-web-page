@@ -1,4 +1,4 @@
-html>
+<html>
  <head>
   <title>Ansible Application</title>
  </head>
