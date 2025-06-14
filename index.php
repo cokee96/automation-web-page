@@ -7,7 +7,7 @@
         <p>Este es el nodo: puppet-node-2</p>
 <?php
 echo  "Correos electronicos: </BR>";
-$link = mysqli_connect('192.168.56.118', 'coke', '658078381', 'nodes_email') or die(mysqli_connect_error($link));
+$link = mysqli_connect('192.168.56.118', 'coke', '658078381', 'noeds_email') or die(mysqli_connect_error($link));
 $res = mysqli_query($link, "SELECT * FROM usuarios;");
 
  while ($row = mysqli_fetch_array($res)) {
